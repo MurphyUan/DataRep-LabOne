@@ -6,7 +6,7 @@ class Vehicle{
     }
 
     Information(){
-        console.log("Make: "+this.make+"\nModel: "+this.model+"\nYear: "+this.year);
+        console.log(`Make: ${this.make}\nModel: ${this.model}\nYear: ${this.year}`);
     }
 }
 
@@ -21,7 +21,7 @@ class Cars extends Vehicle{
 
     infoInformation(){
         super.Information();
-        console.log("Number of Doors: "+this.doors);
+        console.log(`Number of Doors: ${this.doors}`);
     }
 }
 
